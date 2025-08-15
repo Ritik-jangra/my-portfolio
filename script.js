@@ -107,12 +107,12 @@ document.querySelector(".contact-form").addEventListener("submit", function (e) 
 
   fetch(form.action, {
     method: form.method,
-    body: formData
+    body: formData,
+    headers: { 'Accept': 'application/json' }
   })
-  .then(res => res.json())
-  .then(data => {
-    if (data.success) {
-      alert("Message sent successfully!");
+  .then(res => {
+    if (res.ok) {
+      alert("Message sent successfully! ✅");
       form.reset();
     } else {
       alert("Message failed to send. Please try again.");
@@ -122,11 +122,4 @@ document.querySelector(".contact-form").addEventListener("submit", function (e) 
     alert("Something went wrong. Please check your internet connection.");
   });
 });
-
-
-
-
-
-
-
 
