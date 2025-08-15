@@ -134,7 +134,7 @@ button { font-family: inherit; border: none; cursor: pointer; transition: all 0.
 .about { background: linear-gradient(135deg, #0d1117, #161b22); color: white; padding: 80px 20px; }
 .about-container { max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: center; }
 .about-left { flex: 1; text-align: center; }
-.about-img { width: 100%; max-width: 380px; border-radius: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.4); background: linear-gradient(135deg, #0b1e4d, #102f72); }
+.about-img { width: 100%; max-width: 500px; border-radius: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.4); background: linear-gradient(135deg, #0b1e4d, #102f72); }
 .about-right { flex: 1.2; min-width: 300px; }
 .about-title { font-size: 14px; color: #90a4b3; letter-spacing: 1px; margin-bottom: 10px; }
 .about-heading { font-size: clamp(1.5rem, 2.5vw, 2.4rem); line-height: 1.5; margin-bottom: 20px; color: #e6edf3; }
