@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Telco Churn Prediction</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0d1117, #161b22);
+      color: #c9d1d9;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      color: #5ea6ff;
+    }
+
+    .btn-group {
+      margin-top: 20px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background-color: #238636;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #2ea043;
+    }
+
+    .image-box {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    .image-box img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #e6edf3;
+      font-size: 1.7rem;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      color: #c9d1d9;
+    }
+
+    .back-home {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 20px;
+      border: 1px solid #5ea6ff;
+      color: #5ea6ff;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .back-home:hover {
+      background-color: #5ea6ff;
+      color: #0d1117;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .image-box img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Telco <span class="highlight">Churn Prediction</span></h1>
+
+    <div class="btn-group">
+      <a href="https://telco-churn-app-eucsebbmoakhjjlbfumsz2.streamlit.app/" target="_blank" class="btn">
+        <i class="fa-solid fa-play"></i> Live Demo
+      </a>
+      <a href="https://github.com/Ritik-jangra/telco-churn-streamlit" target="_blank" class="btn">
+        <i class="fab fa-github"></i> GitHub Repo
+      </a>
+    </div>
+
+    <div class="image-box">
+      <img src="../images/telco1.jpeg" alt="Telco Churn Project Screenshot">
+    </div>
+
+    <section>
+      <h2>Project Description</h2>
+      <p>This project predicts customer churn using the Telco dataset. A Random Forest model was trained to classify whether a customer is likely to leave based on various features such as tenure, contract type, monthly charges, and more.</p>
+    </section>
+
+    <section>
+      <h2>Tech Stack</h2>
+      <ul>
+        <li>Python</li>
+        <li>Streamlit</li>
+        <li>Random Forest Classifier</li>
+        <li>SHAP for Model Explainability</li>
+        <li>Pandas, Sklearn</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>SHAP Explanation</h2>
+      <ul>
+        <li>SHAP values provide feature-wise contribution to the model's prediction.</li>
+        <li>Visualizes how each feature increases or decreases the likelihood of churn.</li>
+        <li>Used `shap.plots.waterfall()` for individual prediction explanations.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Interactive Streamlit UI for user input and predictions</li>
+        <li>Explains predictions using SHAP plots</li>
+        <li>Trained on cleaned Telco Churn dataset</li>
+        <li>Live deployment on Streamlit Cloud</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Performance Metrics</h2>
+      <ul>
+        <li>Accuracy: 82%</li>
+        <li>Precision: 78%</li>
+        <li>Recall: 76%</li>
+        <li>F1-Score: 77%</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Challenges & Learnings</h2>
+      <ul>
+        <li>Data preprocessing required deep cleaning due to categorical encoding issues</li>
+        <li>Learned effective use of SHAP for black-box model interpretation</li>
+        <li>Improved understanding of deployment workflow using Streamlit</li>
+      </ul>
+    </section>
+
+    <a href="../index.html" class="back-home">
+      ← Back to Home
+    </a>
+
+  </div>
+
+</body>
+</html>

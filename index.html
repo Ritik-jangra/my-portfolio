@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ritik Jangra • ML Enthusiast</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <meta name="description" content="Ritik Jangra — Machine Learning Enthusiast. Projects, skills, certificates, and contact details." />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation" aria-label="Primary">
+    <a href="#home" class="logo" aria-label="Home">
+      <img src="images/Python.png" alt="Logo" height="45">
+    </a>
+
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-links" id="navLinks" role="menu">
+      <a href="#about" role="menuitem">About</a>
+      <a href="#services" role="menuitem">Skills</a>
+      <a href="#projects" role="menuitem">Projects</a>
+      <a href="#certificates" role="menuitem">Certificates</a>
+      <a href="#contact" role="menuitem">Contact</a>
+      <!-- Direct resume download from same folder -->
+      <a href="Ritik_Jangra_Resume.pdf" download role="menuitem" aria-label="Download Resume">Resume</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="content">
+      <h1>
+        Hey! I'm Ritik,<br/>
+        <span class="highlight">Machine Learning Enthusiast</span>
+      </h1>
+      <p class="roles">
+      <span class="muted">I work with</span>
+      <span id="rotating-roles" aria-live="polite">Python • Pandas • scikit-learn</span>
+    </p>
+
+      
+
+      <p>
+        Passionate about building intelligent systems that learn and solve real-world problems.
+        Currently pursuing my MCA and exploring AI and ML deeply.
+      </p>
+
+      <div class="btn-group">
+        <a class="btn" href="#contact">Get in Touch</a>
+        <a class="btn btn-outline" href="Ritik_Jangra_Resume.pdf" download>
+          <i class="fa-solid fa-download" aria-hidden="true"></i>
+          <span>Download Resume</span>
+        </a>
+      </div>
+
+      <div class="social-links" aria-label="Social links">
+        <a href="https://www.linkedin.com/in/ritikjangra/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Ritik-jangra" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://x.com/Ritik_0278" target="_blank" rel="noopener" aria-label="Twitter or X">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="mailto:ritikjangra0278@gmail.com" target="_blank" rel="noopener" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="image-wrapper">
+  <img src="images/farewell-photo.jpg.png" alt="Ritik Jangra" class="hero-photo">
+</div>
+  </section>
+
+  <!-- Tech Stack Belt -->
+  <section class="tech-stack-section">
+    <div class="tech-belt">
+      <div class="belt-track">
+
+        <!-- Row 1: Tech Icons -->
+        <div class="tech-item">
+          <img src="images/Pandas.png" alt="Pandas"><span>Pandas</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/NumPy.png" alt="NumPy"><span>NumPy</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Jupyter.png" alt="Jupyter"><span>Jupyter</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Git.png" alt="Git"><span>Git</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Matplotlib.png" alt="Matplotlib>"><span>Matplotlib</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Python.png" alt="Python"><span>Python</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Visual Studio Code (VS Code).png" alt="Vs Code"><span>Vs Code</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/scikit-learn.svg" alt="Scikit-learn"><span>Scikit-learn</span>
+        </div>
+
+        <!-- Duplicated for seamless loop -->
+        <div class="tech-item">
+          <img src="images/Pandas.png" alt="Pandas"><span>Pandas</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/NumPy.png" alt="NumPy"><span>NumPy</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Jupyter.png" alt="Jupyter"><span>Jupyter</span>
+        </div>
+        <div class="tech-item">
+          <img src="images/Git.png" alt="Git"><span>Git</span>
+        </div>
+        <!-- <div class="tech-item">
+          <img src="images/Docker.png" alt="Docker"><span>Docker</span>
+        </div> -->
+        <div class="tech-item">
+          <img src="images/Python.png" alt="Python"><span>Python</span>
+        </div>
+        <!-- <div class="tech-item">
+          <img src="images/TensorFlow.png" alt="TensorFlow"><span>TensorFlow</span>
+        </div> -->
+        <div class="tech-item">
+          <img src="images/scikit-learn.svg" alt="Scikit-learn"><span>Scikit-learn</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-left">
+        <img src="images/loan1.jpg" alt="Ritik Jangra About Photo" class="about-img"/>
+      </div>
+      <div class="about-right">
+        <p class="about-title">ABOUT ME</p>
+        <h2 class="about-heading">
+          I AM AVAILABLE FOR <span class="highlight-blue">INTERNSHIPS</span> & <span class="highlight-blue">FREELANCE</span> ML/AI PROJECTS
+        </h2>
+        <p class="about-text">
+          As an MCA student with a deep passion for machine learning and artificial intelligence, I'm constantly exploring new ways to apply these technologies to solve complex problems. I specialize in building predictive models, data analysis, and creating intelligent systems.
+        </p>
+        <p class="about-text">
+          I'm actively seeking internship opportunities and freelance projects where I can contribute my skills in Python, machine learning frameworks, and data science while continuing to learn and grow in this exciting field.
+        </p>
+        <div class="about-stats">
+          <div><strong>3+</strong><br>Projects Completed</div>
+          <div><strong>1+</strong><br>Years Learning</div>
+          <div><strong>5+</strong><br>Tech Stacks</div>
+        </div>
+        <a href="#contact" class="btn-blue">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section class="projects" id="projects">
+    <h2 class="section-title">Recent Projects</h2>
+    <div class="projects-container">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="images/loan1.jpg" alt="Loan Approval Prediction Project Thumbnail"/>
+        <div class="project-content">
+          <h3>Loan Approval Prediction</h3>
+          <p>Machine learning model to predict loan approval using customer data.</p>
+          <div class="tags">
+            <span>Python</span><span>ML</span><span>Web App</span>
+          </div>
+          <a href="Projects/loan-approval.html" class="view-project" target="_blank" rel="noopener">View Project <span>&rarr;</span></a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="images/telco1.jpeg" alt="Customer Churn Analysis Project Thumbnail"/>
+        <div class="project-content">
+          <h3>Customer Churn Analysis</h3>
+          <p>Predictive analytics system to identify customers likely to churn.</p>
+          <div class="tags">
+            <span>Python</span><span>Data Science</span><span>Analytics</span>
+          </div>
+          <a href="Projects/telco-churn.html" class="view-project" target="_blank" rel="noopener">View Project <span>&rarr;</span></a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="images/flight1.jpeg" alt="Flight Fare Predictor Project Thumbnail"/>
+        <div class="project-content">
+          <h3>Flight Fare Predictor</h3>
+          <p>Predicts flight ticket prices based on journey details and airline features.</p>
+          <div class="tags">
+            <span>Python</span><span>ML</span><span>Regression</span>
+          </div>
+          <a href="Projects/flight-fare.html" class="view-project" target="_blank">View Project <span>&rarr;</span></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills & Services Section -->
+  <section class="services" id="services">
+    <h2 class="section-title">Skills <span class="highlight">&amp; Services</span> I Am Providing</h2>
+
+    <div class="services-container">
+      <!-- Web Development -->
+      <div class="service-card">
+        <div class="service-image">
+          <img src="images/Web_Dev1.jpeg" alt="Web Development"/>
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon"><i class="fas fa-globe"></i></div>
+          <h3>Web Development</h3>
+          <p>Building responsive and modern web applications using the latest technologies and frameworks.</p>
+        </div>
+      </div>
+
+      <!-- Machine Learning -->
+      <div class="service-card">
+        <div class="service-image">
+          <img src="images/ML1.jpeg" alt="Machine Learning"/>
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon"><i class="fas fa-brain"></i></div>
+          <h3>Machine Learning</h3>
+          <p>Developing intelligent systems and predictive models using advanced ML algorithms and tools.</p>
+        </div>
+      </div>
+
+      <!-- Data Preprocessing -->
+      <div class="service-card">
+        <div class="service-image">
+          <img src="images/DP1.jpeg" alt="Data Preprocessing"/>
+          <div class="image-overlay"></div>
+        </div>
+        <div class="service-content">
+          <div class="service-icon"><i class="fas fa-database"></i></div>
+          <h3>Data Preprocessing</h3>
+          <p>Cleaning, transforming, and preparing data for analysis and machine learning model training.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates section-padding">
+    <h2 class="section-title">Certificates</h2>
+
+    <div class="cert-slider-wrapper">
+      <!-- Left Arrow -->
+      <button class="cert-arrow left" onclick="scrollCertsLeft()" aria-label="Scroll certificates left">
+        <i class="arrow left"></i>
+      </button>
+
+      <!-- Slider -->
+      <div class="cert-slider" id="certSlider" tabindex="0" aria-label="Certificates slider">
+        <div class="card" onclick="openModal('My Certificates/ML Certificate_Udemy_page-0001.jpg')">
+          <img src="My Certificates/ML Certificate_Udemy_page-0001.jpg" alt="Complete ML & Data Science Bootcamp certificate" data-full-img="images/cert1.png" />
+          <div class="card-content">
+            <h3>Complete ML & Data Science Bootcamp</h3>
+            <p>Project-based course covering ML, DL, NLP & DS fundamentals</p>
+            <div class="tags"><span>Python</span><span>ML</span><span>Data</span></div>
+            <button class="view-btn" onclick="openModalFromButton(this)">View</button>
+          </div>
+        </div>
+
+        <div class="card" onclick="openModal('My Certificates/Introduction to Gen AI_Simplilearn_page-0001.jpg')">
+          <img src="My Certificates/Introduction to Gen AI_Simplilearn_page-0001.jpg" alt="Generative AI Basics certificate" data-full-img="images/NumPy.png" />
+          <div class="card-content">
+            <h3>Generative AI Basics</h3>
+            <p>Completed LLM and AI training (Google AI Course).</p>
+            <div class="tags"><span>AI</span><span>LLM</span><span>Gen AI</span></div>
+            <button class="view-btn" onclick="openModalFromButton(this)">View</button>
+          </div>
+        </div>
+
+        <div class="card" onclick="openModal('My Certificates/Data Analysis with Python_IBM(Cognitive.ai)_page-0001.jpg')">
+          <img src="My Certificates/Data Analysis with Python_IBM(Cognitive.ai)_page-0001.jpg" alt="ML with Python certificate" data-full-img="images/cert3.png" />
+          <div class="card-content">
+            <h3>ML with Python</h3>
+            <p>Applied Machine Learning project-based certification.</p>
+            <div class="tags"><span>Python</span><span>ML</span><span>Projects</span></div>
+            <button class="view-btn" onclick="openModalFromButton(this)">View</button>
+          </div>
+        </div>
+
+        <div class="card" onclick="openModal('My Certificates/Machine Learning_Simplilearn_page-0001.jpg')">
+          <img src="My Certificates/Machine Learning_Simplilearn_page-0001.jpg" alt="Web Development certificate" data-full-img="images/cert4.png" />
+          <div class="card-content">
+            <h3>Machine learning</h3>
+            <p>Certified in Machine Learning with practical skills in Python, scikit-learn, and model deployment</p>
+            <div class="tags"><span>Python</span><span>ML concepts</span><span>Libraries</span></div>
+            <button class="view-btn" onclick="openModalFromButton(this)">View</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Arrow -->
+      <button class="cert-arrow right" onclick="scrollCertsRight()" aria-label="Scroll certificates right">
+        <i class="arrow right"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="certModal" class="cert-modal" aria-hidden="true" role="dialog" aria-label="Certificate preview modal">
+    <span class="close-modal" onclick="closeModal()" aria-label="Close">&times;</span>
+    <img class="modal-content" id="modalImg" alt="Full Certificate">
+  </div>
+
+  <!-- Contact Me Section -->
+<section class="contact" id="contact">
+  <h2 class="section-title">
+    <span class="highlight">Get in</span> Touch
+  </h2>
+  <p class="contact-subtitle">Have a question or want to work together?</p>
+
+  <form class="contact-form" action="https://formspree.io/f/xblkbyad" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="_replyto" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+    <!-- Optional redirect after submit -->
+    <input type="hidden" name="_next" value="thankyou.html">
+    
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <!-- Location line -->
+      <p class="meta">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        Bahadurgarh, Haryana, India
+      </p>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
